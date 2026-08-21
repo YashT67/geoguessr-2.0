@@ -78,7 +78,7 @@ def main():
     OUTPUT_FILE = os.path.join(BASE_DIR, "extracted_features_dinov2_large.pt")
     
     BATCH_SIZE = 32
-    NUM_WORKERS = 8  # Reduced slightly from 16 to ensure stability on Windows
+    NUM_WORKERS = 0  # Reduced slightly from 16 to ensure stability on Windows
     IMAGE_SIZE = 420
     
     print("Preparing dataset...")

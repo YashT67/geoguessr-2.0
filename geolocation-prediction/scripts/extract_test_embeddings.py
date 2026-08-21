@@ -50,8 +50,8 @@ def collate_fn(batch):
 def main():
     # Configuration
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    TEST_IMG_DIR = os.path.join(BASE_DIR, "test_images_sampled")
-    OUTPUT_FILE = os.path.join(BASE_DIR, "test_extracted_features_dinov2_large.pt")
+    TEST_IMG_DIR = os.path.join(BASE_DIR, "photo_pull")
+    OUTPUT_FILE = os.path.join(BASE_DIR, "full_test_extracted_features_dinov2_large.pt")
     
     BATCH_SIZE = 32
     NUM_WORKERS = 8 

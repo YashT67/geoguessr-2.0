@@ -2,5 +2,7 @@
 geolocation-prediction/test_images_sampled/
 geolocation-prediction/original_training_dataset/
 geolocation-prediction/extra_training_dataset/
+geolocation-prediction/photo_pull/
 geolocation-prediction/extracted_features_dinov2_large.pt
 geolocation-prediction/test_extracted_features_dinov2_large.pt
+geolocation-prediction/full_test_extracted_features_dinov2_large.pt
